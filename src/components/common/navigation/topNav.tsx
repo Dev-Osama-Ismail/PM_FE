@@ -13,7 +13,7 @@ const TopNavbar: React.FC<TopNavbarProps> = ({
   onLanguageToggle,
 }) => {
   const { menuOpen, toggleMenu, showInstall, handleInstallClick } = useTopNavbar([], () => {}, language, onLanguageToggle);
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <header className="w-full h-auto bg-white px-4 md:px-6 py-4 flex flex-wrap items-center justify-between gap-4 relative z-10">

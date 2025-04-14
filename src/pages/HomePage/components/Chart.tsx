@@ -21,7 +21,7 @@ const data = [
 ];
 
 const Chart = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="w-full flex flex-col items-start mt-9 px-4 overflow-x-auto">

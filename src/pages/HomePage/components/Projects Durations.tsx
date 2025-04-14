@@ -30,7 +30,7 @@ const getPercentage = (data: ChartData[], index: number) => {
 };
 
 const Projects_Durations_chart: React.FC = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="flex flex-col lg:flex-row justify-between items-center w-full h-full gap-6 p-4">

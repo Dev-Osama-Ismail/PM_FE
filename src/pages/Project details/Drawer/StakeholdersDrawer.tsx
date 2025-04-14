@@ -4,8 +4,9 @@ import { useFilterLogic } from "../../../hook/Add filter";
 import { FilterDrawerProps } from "../../../Types";
 import AddTaskForm from "../../../Forms/AddTaskForm";
 import { theme } from "../../../theme/color";
+import DocumentForm from "../../../Forms/DocumentForm";
 
-const AddTaskDrawer: React.FC<FilterDrawerProps> = ({ isOpen, onClose }) => {
+const StakeholdersDrawer: React.FC<FilterDrawerProps> = ({ isOpen, onClose }) => {
   const { selectedFilters } = useFilterLogic();
 
   return (
@@ -16,7 +17,7 @@ const AddTaskDrawer: React.FC<FilterDrawerProps> = ({ isOpen, onClose }) => {
     >
       {/* Header */}
       <div className="flex justify-between items-center p-4 border-b">
-        <h2 className="text-lg font-semibold">Add New Task</h2>
+        <h2 className="text-lg font-semibold">Add New Stakeholders</h2>
         <button onClick={onClose} className="text-gray-600 hover:text-red-500 text-xl">
           <FaTimes />
         </button>
@@ -24,7 +25,7 @@ const AddTaskDrawer: React.FC<FilterDrawerProps> = ({ isOpen, onClose }) => {
 
       {/* Content */}
       <div className="flex flex-col gap-5 p-4 overflow-y-auto pb-40 max-h-[calc(100vh-64px)]">
-        <AddTaskForm mode="create" />
+        <DocumentForm mode="create" />
       </div>
 
       {/* Footer Button - Fixed */}
@@ -41,15 +42,14 @@ const AddTaskDrawer: React.FC<FilterDrawerProps> = ({ isOpen, onClose }) => {
             (e.currentTarget.style.opacity = "1")
           }
           onClick={() => {
-            alert("Add New Task");
+            alert("Add New Stakeholders");
             onClose();
           }}
         >
-          Add Task
-        </button>
+Add New Stakeholders       </button>
       </div>
     </div>
   );
 };
 
-export default AddTaskDrawer;
+export default StakeholdersDrawer;
