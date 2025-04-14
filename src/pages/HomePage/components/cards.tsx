@@ -4,7 +4,7 @@ import bag from "../../../assets/bag.png";
 import { useTranslation } from "react-i18next";
 
 const Card = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">

@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 
 const Sidebar: React.FC<SidebarProps> = ({ menu, onItemClick, isOpen, toggleSidebar }) => {
   const { activePath, setActivePath } = useActivePath(); // استخدام الهوك
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const handleItemClick = (path: string) => {
     setActivePath(path);

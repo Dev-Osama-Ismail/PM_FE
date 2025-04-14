@@ -37,7 +37,7 @@ export const getStatusChip = (status: PhaseType['Status']) => {
 
 export default function PhaseTable() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-  const [menuRow, setMenuRow] = React.useState<PhaseType | null>(null);
+  const [, setMenuRow] = React.useState<PhaseType | null>(null);
 
   const handleMenuOpen = (event: React.MouseEvent<HTMLElement>, row: PhaseType) => {
     setAnchorEl(event.currentTarget);

@@ -33,7 +33,7 @@ const getPercentage = (data: ChartData[], index: number) => {
 const Overall_progress_chart: React.FC = () => {
   const innerPercentage = getPercentage(innerData, 0);
   const outerPercentage = getPercentage(outerData, 0);
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="flex flex-col lg:flex-row justify-between items-center w-full h-full gap-6 p-4">
