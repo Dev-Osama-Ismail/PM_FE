@@ -54,5 +54,20 @@
         "weeks3_8": "3-8 أسابيع",
         "weeks2": "أسبوعين"
       }
+    },
+    "reports": {
+      "title": "التقارير",
+      "projectReports": "تقارير المشاريع",
+      "generalProjects": "تقرير المشاريع العامة",
+      "detailedProjects": "تقرير المشاريع المفصل",
+      "committeeReport": "تقرير اللجنة",
+      "entityReports": "تقارير الجهات",
+      "generalEntity": "تقرير الجهات العامة",
+      "detailedEntity": "تقرير الجهات المفصل",
+      "usersReports": "تقارير المستخدمين",
+      "contractorsReports": "تقارير المقاولين",
+      "governorateReports": "تقارير المحافظات",
+      "financialReports": "التقارير المالية",
+      "icvReports": "تقارير القيمة المحلية المضافة"
     }
 }

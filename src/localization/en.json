@@ -53,5 +53,21 @@
     "weeks3_8": "3-8 Weeks",
     "weeks2": "2 weeks"
   }
+},
+"reports": {
+  "title": "Reports",
+  "projectReports": "Project Reports",
+  "generalProjects": "General Projects Report",
+  "detailedProjects": "Detailed Projects Report",
+  "committeeReport": "Committee Report",
+  "entityReports": "Entity Reports",
+  "generalEntity": "General Entity Report",
+  "detailedEntity": "Detailed Entity Report",
+  "usersReports": "Users Reports",
+  "contractorsReports": "Contractors Reports",
+  "governorateReports": "Governorate Reports",
+  "financialReports": "Financial Reports",
+  "icvReports": "ICV Reports"
 }
+
 }
