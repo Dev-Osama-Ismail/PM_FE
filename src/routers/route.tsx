@@ -5,6 +5,8 @@ import LoginPage from "../pages/LoginPage/LoginPage";
 import ProjectDetails from "../pages/Project details/Project Details";
 import ReportsPage from "../pages/reports/Reports";
 import Map from "../pages/MapPage/Map";
+import GeneralProjectsReport from "../pages/reports/Report Details/GeneralProjectsReport";
+import StatisticPage from "../pages/statistic/statisticPage";
 
 const Routers = () => {
   return (
@@ -13,8 +15,9 @@ const Routers = () => {
       <Route path="/Reports" element={<ReportsPage />} />
       <Route path="/Projects" element={<ProjectsPage />} />
       <Route path="/Map" element={<Map />} />
-
-      <Route path="/" element={<Homepage />} />
+      <Route path="/Reports/general-projects" element={<GeneralProjectsReport />} />
+      <Route path="/home" element={<Homepage />} />
+      <Route path="/statistics" element={<StatisticPage />} />
       <Route path="/projects/:projectName" element={<ProjectDetails />} />
     </Routes>
   );

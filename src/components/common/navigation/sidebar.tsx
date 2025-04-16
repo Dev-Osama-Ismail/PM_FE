@@ -61,7 +61,7 @@ const Sidebar: React.FC<SidebarProps> = ({ menu, onItemClick, isOpen, toggleSide
           <nav className="space-y-2">
             {menu.map((item) => {
               const Icon = item.icon;
-              const isActive = activePath === item.path;
+              const isActive =  activePath.startsWith(item.path);
               return (
                 <button
                   key={item.id}

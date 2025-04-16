@@ -68,10 +68,6 @@ const ProjectDetails = () => {
 </div>
 
 
-      
-
-
-      {/* Tabs */}
       <div>
         <Tabs
           tabs={Plainingtabs}
