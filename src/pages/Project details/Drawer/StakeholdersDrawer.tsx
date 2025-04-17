@@ -1,13 +1,10 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
-import { useFilterLogic } from "../../../hook/Add filter";
 import { FilterDrawerProps } from "../../../Types";
-import AddTaskForm from "../../../Forms/AddTaskForm";
 import { theme } from "../../../theme/color";
 import DocumentForm from "../../../Forms/DocumentForm";
 
 const StakeholdersDrawer: React.FC<FilterDrawerProps> = ({ isOpen, onClose }) => {
-  const { selectedFilters } = useFilterLogic();
 
   return (
     <div

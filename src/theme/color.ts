@@ -33,7 +33,7 @@ export const StageColors: { [key: string]: string } = {
   "closer": "bg-gray-100 text-gray-700",
 };
 
-export const StyledTableCell = styled(TableCell)(({ theme }) => ({
+export const StyledTableCell = styled(TableCell)(({  }) => ({
   [`&.${tableCellClasses.head}`]: {
     backgroundColor: '#F1F1F1', // أزرق غامق (Tailwind: blue-900)
     color: '#000000',           // أبيض
@@ -46,7 +46,7 @@ export const StyledTableCell = styled(TableCell)(({ theme }) => ({
 }));
 
 // تعديل ألوان صفوف الجدول
-export const StyledTableRow = styled(TableRow)(({ theme }) => ({
+export const StyledTableRow = styled(TableRow)(({  }) => ({
   '&:nth-of-type(odd)': {
     backgroundColor: '#FFFFFF', // رمادي فاتح (Tailwind: gray-100)
   },

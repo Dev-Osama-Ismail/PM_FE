@@ -10,7 +10,7 @@ type Props = {
 };
 
 const Other_Details: React.FC<Props> = ({ mode, projectData }) => {
-  const [selected, setSelected] = useState<string | number>(projectData?.entity || "");
+  const [, setSelected] = useState<string | number>(projectData?.entity || "");
 
   const [formData, setFormData] = useState({
     entity: projectData?.entity || '',

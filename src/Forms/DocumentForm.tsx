@@ -2,20 +2,15 @@ import React from "react";
 import { ChevronDown } from "lucide-react";
 import CustomInput from "../pages/Projects/componants/Add Project Drawer/componant/CustomInput";
 import CustomSelect from "../pages/Projects/componants/Add Project Drawer/componant/CustomselectList";
-import CustomSlider from "../pages/Projects/componants/Add Project Drawer/componant/CustomSlideBar";
 import { Option } from "../Types";
 import { ProjectIdentificationProps, useProjectIdentification } from "../hook/Project IdentificationLogic";
-import CustomTextarea from "../pages/Projects/componants/Add Project Drawer/componant/CustomTextArea";
-import ReferenceDateUsingValue from "../pages/Projects/componants/Add Project Drawer/componant/customcalender";
 import FileDropZone from "../pages/Projects/componants/Add Project Drawer/componant/CustomFileupload";
 
 const DocumentForm: React.FC<ProjectIdentificationProps> = (props) => {
   const {
   formData,
-  showInput,
   handleChange,
   handleSubmit,
-  handleToggle,
   mode,
   } = useProjectIdentification(props);
   const options: Option[] = [
