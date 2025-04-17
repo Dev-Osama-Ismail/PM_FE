@@ -6,7 +6,7 @@ import { DropdownMenuProps } from "../../../Types";
 
 const DropdownMenu: React.FC<DropdownMenuProps> = ({ showInstall, handleInstallClick }) => {
   return (
-    <div className="absolute top-20 right-6 mt-2 p-4 bg-white shadow-lg rounded-lg w-48 z-20">
+    <div className="absolute  right-0 mt-2 p-4 bg-white shadow-lg rounded-lg w-48 z-20">
       <ul>
         <li className="py-2 flex items-center gap-3 hover:bg-gray-100 cursor-pointer">
           <UserIcon className="h-5 w-5 text-gray-700" />
