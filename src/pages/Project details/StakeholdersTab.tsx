@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { theme } from "../../theme/color";
 import { FaPlus } from "react-icons/fa";
-import RiskTable from "./componant/RiskTable";
 import RiskDrawer from "./Drawer/riskDrawer";
 import StakeholdersTable from "./componant/Stakeholders";
 
