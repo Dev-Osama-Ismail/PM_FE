@@ -1,6 +1,5 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
-import { useFilterLogic } from "../../../hook/Add filter";
 import { FilterDrawerProps } from "../../../Types";
 import { theme } from "../../../theme/color";
 import DocumentForm from "../../../Forms/DocumentForm";
