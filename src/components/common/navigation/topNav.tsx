@@ -71,7 +71,8 @@ const TopNavbar: React.FC<TopNavbarProps> = ({
         </div>
 
         {/* الإشعارات */}
-        <div className="relative">
+      {/* الإشعارات */}
+      <div className="relative">
   <button
     onClick={(e) => {
       e.stopPropagation();
@@ -85,11 +86,13 @@ const TopNavbar: React.FC<TopNavbarProps> = ({
   {isNotificationOpen && (
     <div
       onClick={(e) => e.stopPropagation()}
+      className="absolute right-0 mt-2 px-2  max-w-xs sm:max-w-sm z-20"
     >
       <NotificationMenu />
     </div>
   )}
 </div>
+ 
 
 
         {/* المستخدم */}

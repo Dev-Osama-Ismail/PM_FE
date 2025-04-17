@@ -71,7 +71,7 @@ const NotificationMenu = () => {
     <div
       key={notif.id}
       onClick={() => handleMarkAsRead(notif.id)}
-      className="flex flex-col gap-1 px-3 py-2 hover:bg-gray-100 rounded-md cursor-pointer border-b"
+      className="flex flex-col gap-1 px-3 py-2 hover:bg-gray-100 rounded-md cursor-pointer border-b "
     >
       <div className="flex justify-between items-start">
         {/* Right side: Blue dot + title */}
@@ -92,9 +92,12 @@ const NotificationMenu = () => {
       <p className="text-xs text-gray-600">{notif.message}</p>
     </div>
   );
-
+  
   return (
-    <div className="absolute right-0 w-80 bg-white shadow-xl rounded-lg p-4 z-50">
+<div className="w-full p-4 bg-white shadow-lg rounded-lg z-20">
+
+
+
       <h3 className="text-lg font-semibold mb-3">Notifications</h3>
 
       {/* Filters */}
